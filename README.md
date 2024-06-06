@@ -15,22 +15,11 @@ The project has the following structure:
 
 ## Web UI
 
-![Web UI](#) <!-- Replace '#' with the link to your image -->
+![Web UI](./images/image.png) <!-- Replace '#' with the link to your image -->
 
+<iframe width="560" height="315" src="https://youtu.be/PtkyQ4Vm7FA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ## Setup and Installation
 
 1. Clone the repository.
 2. Install the dependencies listed in `requirements.txt`.
 3. Run `app.py` to start the application.
-
-## Usage
-
-<!-- Describe how to use your application -->
-
-## Contributing
-
-<!-- Describe how others can contribute to your project -->
-
-## License
-
-<!-- Describe the license for your project, if any -->
