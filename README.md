@@ -17,13 +17,11 @@ The project has the following structure:
 
 ![Web UI](./images/image.png) <!-- Replace '#' with the link to your image --  
 ![Web UI](./images/video.mp4)
-https://github.com/theanupamkumar1/restaurant-rating-prediction/assets/62919574/c7d93299-0dc6-48c0-9ffc-e85b82e9d3a1
 
->
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PtkyQ4Vm7FA?si=GvBmA8FGs5ho0c0Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PtkyQ4Vm7FA?si=GvBmA8FGs5ho0c0Q" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 
 <video src='https://www.youtube.com/watch?v=PtkyQ4Vm7FA' width=180/>
 ## Setup and Installation
@@ -31,3 +29,9 @@ https://github.com/theanupamkumar1/restaurant-rating-prediction/assets/62919574/
 1. Clone the repository.
 2. Install the dependencies listed in `requirements.txt`.
 3. Run `app.py` to start the application.
+
+https://github.com/theanupamkumar1/restaurant-rating-prediction/assets/62919574/f75555b4-4343-4b19-8528-48908cf4715d
+
+
+
+
