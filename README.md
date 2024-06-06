@@ -15,7 +15,11 @@ The project has the following structure:
 
 ## Web UI
 
-![Web UI](./images/image.png) <!-- Replace '#' with the link to your image -->
+![Web UI](./images/image.png) <!-- Replace '#' with the link to your image --  
+![Web UI](./images/video.mp4)
+https://github.com/theanupamkumar1/restaurant-rating-prediction/assets/62919574/c7d93299-0dc6-48c0-9ffc-e85b82e9d3a1
+
+>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PtkyQ4Vm7FA?si=GvBmA8FGs5ho0c0Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
