@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant Rating Prediction</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background: #f8f9fa;
+        margin: 0;
+        padding: 20px;
+      }
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        background: white;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      .form-group {
+        margin-bottom: 15px;
+      }
+      label {
+        display: block;
+        margin-bottom: 5px;
+      }
+      input,
+      select {
+        width: 100%;
+        padding: 8px;
+        box-sizing: border-box;
+      }
+      button {
+        background: #28a745;
+        color: white;
+        border: none;
+        padding: 10px 15px;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+      button:hover {
+        background: #218838;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Predict Restaurant Rating</h1>
+      <form method="post" action="/">
+        <div class="form-group">
+          <label for="online_order">Online Order:</label>
+          <select id="online_order" name="online_order">
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="book_table">Book Table:</label>
+          <select id="book_table" name="book_table">
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="votes">Votes:</label>
+          <input type="number" id="votes" name="votes" required />
+        </div>
+
+        <div class="form-group">
+          <label for="avg_cost">avg Cost for Two People:</label>
+          <input type="number" id="avg_cost" name="avg_cost" required />
+        </div>
+
+        <div class="form-group">
+          <label for="city">Location:</label>
+          <select id="city" name="city" required>
+            <option value="">Select Location</option>
+            {% for loc in city %}
+            <option value="{{ loc }}">{{ loc }}</option>
+            {% endfor %}
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="rest_type">Restaurant Type:</label>
+          <select id="rest_type" required name="rest_type">
+            <!-- Add your restaurant type options here -->
+            <option value="">Select restaurant type</option>
+            <option value="Banashankari">Casual Dining</option>
+            {% for loc in rest_type %}
+            <option value="{{ loc }}">{{ loc }}</option>
+            {% endfor %}
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="cuisines">Cuisines:</label>
+          <select id="cuisines" name="cuisines" required>
+            <option value="Banashankari">South Indian</option>
+            <!-- Add your cuisine options here -->
+            <option value="">Select Cuisine</option>
+            {% for loc in cuisines %}
+            <option value="{{ loc }}">{{ loc }}</option>
+            {% endfor %}
+          </select>
+        </div>
+
+        <button type="submit">Predict</button>
+      </form>
+
+      {% if prediction_text %}
+      <h2>{{ prediction_text }}</h2>
+      {% endif %}
+    </div>
+    <div class="result-box">
+      <h2>Predicted Rating</h2>
+      <p class="rating">{{ prediction_text }}</p>
+      <div class="stars"></div>
+    </div>
+  </body>
+</html>
