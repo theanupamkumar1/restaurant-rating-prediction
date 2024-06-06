@@ -15,7 +15,7 @@ The project has the following structure:
 
 ## Web UI
 
-![Web UI](./images/image.png) <!-- Replace '#' with the link to your image --  
+![Web UI](./images/image.png)  
 ![Web UI](./images/video.mp4)
 
 
